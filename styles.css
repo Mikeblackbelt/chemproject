@@ -65,7 +65,8 @@ a:hover {
     border-radius: 8px;
     margin: 10px 0;
     padding: 10px;
-    max-width: 400px;
+    max-width: 35%;
+    transform: translateX(20);
     list-style-type: none;
 }
 
@@ -83,7 +84,7 @@ a:hover {
     padding-left: 20px;
     margin: 0;
     color: #cccccc;
-    transform: translate(10px);
+    transform: translate(50px);
 }
 
 .nutrient-list > li {
@@ -92,7 +93,7 @@ a:hover {
     border-radius: 8px;
     margin: 10px 0;
     padding: 10px;
-    max-width: 100px;
+    max-width: calc(35% - 30px);
 }
 
 .nutrient-list > li:hover {
