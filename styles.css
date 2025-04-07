@@ -79,6 +79,7 @@ a:hover {
     margin-bottom: 8px;
 }
 
+
 .nutrient-list {
     list-style-type: none;
     padding-left: 20px;
@@ -94,9 +95,64 @@ a:hover {
     margin: 10px 0;
     padding: 10px;
     max-width: calc(35% - 30px);
+    transform: scale(0.8,1);
 }
 
+.nutrient-list > li > p {
+    transform: scale(1.25,1) translateX(10%);
+}
 .nutrient-list > li:hover {
     background: rgba(255, 255, 255, 0.1);
     border-color: #1abc9c;
+}
+
+#banner {
+    background-color: #2a2a3d;
+    color: #1abc9c;
+    padding: 15px 20px;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #00bcd4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0;
+}
+#banner {
+    background-color: #2a2a3d;
+    color: #1abc9c;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #00bcd4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+}
+
+.banner-title {
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+    color: #1abc9c;
+    font-size: 2.5em;
+}
+
+.nav-btn {
+    padding: 8px 16px;
+    background-color: #1a1a2e;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-size: 1.05em;
+    white-space: nowrap;
+    transform:  translateY(-20px) scale(1.15);
+}
+
+.nav-btn:hover {
+    background-color: #33334d;
 }
