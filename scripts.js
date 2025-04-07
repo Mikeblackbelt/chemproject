@@ -6,12 +6,15 @@ function calculateLimestone(pH, area) {
     
 }
 
-const quantityInput = document.getElementById('quantity');
-const costDisplay = document.getElementById('cost');
-const pricePerUnit = 9.99;
+window.addEventListener('DOMContentLoaded', function () {
+    const quantityInput = document.getElementById('quantity');
+    const costDisplay = document.getElementById('cost');
+    const pricePerUnit = 9.99;
 
-quantityInput.addEventListener('input', function () {
-    const quantity = parseInt(quantityInput.value) || 0;
-    const totalCost = (quantity * pricePerUnit).toFixed(2);
-    costDisplay.textContent = `Cost: $${totalCost}`;
+    quantityInput.addEventListener('input', function () {
+        const quantity = parseInt(quantityInput.value) || 0;
+        const totalCost = (quantity * pricePerUnit).toFixed(2);
+        costDisplay.textContent = `Cost: $${totalCost}`;
+    });
 });
+
