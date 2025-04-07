@@ -95,11 +95,11 @@ a:hover {
     margin: 10px 0;
     padding: 10px;
     max-width: calc(35% - 30px);
-    transform: scale(0.8,1);
+    transform: scale(0.8);
 }
 
 .nutrient-list > li > p {
-    transform: scale(1.25,1) translateX(10%);
+    transform: scale(1.25) translateX(10%);
 }
 .nutrient-list > li:hover {
     background: rgba(255, 255, 255, 0.1);
