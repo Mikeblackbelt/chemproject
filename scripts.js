@@ -20,3 +20,8 @@ window.addEventListener('DOMContentLoaded', function () {
 
 });
 
+
+function changetxt() {
+    const thingy = document.getElementById('orderMessage');
+    thingy.textContent = 'We will contact you with further information- an ordering system is still pending development as our product is still pending funding.'
+}
