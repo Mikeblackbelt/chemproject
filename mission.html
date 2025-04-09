@@ -8,37 +8,46 @@
     <link rel="stylesheet" href="liststyles.css">
 </head>
 <body>
-    <h1 class="banner">The Mission</h1>
-    <h2>What is the issue?</h2>
-    <p>Fertile soil has a pH range of roughly 5.5 - 6.5, with acidic soil being considered having a pH of less than 5. </p>
-    <p>This lowering of pH can be caused by several factors, but result in dire consequences for the stability of the soil. These include:</p>
-    <ul class="issue-list">
-        <li>
-            ⚠️ <strong>Decreased Nutrient Absorption</strong>, affecting:
-            <ul class="nutrient-list">
-                <li>🌱 Nitrogen</li>
-                <li>🍌 Potassium</li>
-                <li>🔥 Phosphorus</li>
+    <div id="banner">
+        <a href="index.html" class="nav-btn left-btn">← Home</a>
+        <p class="banner-title">The Mission</p>
+        <span class="nav-btn right-btn" style="visibility: hidden;"></span>
+    </div>
+    
+    <main class="content">
+        <section id="problem">
+            <h2>What is the issue?</h2>
+            <p>Fertile soil has a pH range of roughly 5.5 - 6.5, with acidic soil being considered having a pH of less than 5.</p>
+            <p>This lowering of pH can be caused by several factors, but results in dire consequences for the stability of the soil. These include:</p>
+            <ul class="issue-list">
+                <li>
+                    ⚠️ <strong>Decreased Nutrient Absorption</strong>, affecting:
+                    <ul class="nutrient-list">
+                        <li>🌱 Nitrogen</li>
+                        <li>🍌 Potassium</li>
+                        <li>🔥 Phosphorus</li>
+                    </ul>
+                </li>
+                <li>☣️ <strong>Increased likelihood of toxic metals dissolving in the soil</strong> (bad!)</li>
             </ul>
-        </li>
-        <li>☣️ <strong>Increased likelihood of toxic metals dissolving in the soil</strong> (bad!)</li>
-    </ul>
-    
-    
-    
+        </section>
 
-    <h2>Why limestone?</h2>
-    <p>Limestone isn't a magical rock, it contains Calcium Carbonate. 
-    Calcium Carbonate, a chemical compound with formula CaCO<sub>3</sub>, interacts with acids to release Carbonic Acid (H<sub>2</sub>CO<sub>3</sub>), which disintergates into Carbon Dioxide and Water, as shown in the below equation:</p>
-    <p>CaCO<sub>3</sub>(s) + 2H<sup>+</sup>(aq) -> Ca<sup>2+</sup>(aq) + CO<sub>2</sub>(g) + H<sub>2</sub>O (l)</p>
-    <p>This in turn, as well as a result of the basicness of CaCO<sub>3</sub>, neutralizes acidic soil.</p>
+        <section id="limestone">
+            <h2>Why limestone?</h2>
+            <p>Limestone isn't a magical rock — it contains Calcium Carbonate (CaCO<sub>3</sub>). This compound reacts with acids to form carbonic acid (H<sub>2</sub>CO<sub>3</sub>), which breaks down into carbon dioxide and water:</p>
+            <p><code>CaCO<sub>3</sub>(s) + 2H<sup>+</sup>(aq) → Ca<sup>2+</sup>(aq) + CO<sub>2</sub>(g) + H<sub>2</sub>O (l)</code></p>
+            <p>This reaction, along with the inherent basicness of CaCO<sub>3</sub>, neutralizes acidic soil effectively.</p>
+        </section>
 
-    <h2>Why OUR Limestone?</h2>
+        <section id="our-product">
+            <h2>Why <em>our</em> limestone?</h2>
+            <p>✨ We add nutrients, helping your plants stay alive and thrive!</p>
+            <p>🪨 We also use larger chunks so it disperses gradually and lasts longer, reducing the need for frequent reapplication.</p>
+        </section>
 
-    <p>We add nutrients, helping your plants stay alive!</p>
-    <p>We also make it bigger chunks, so it disperes gradually and lasts longer.</p>
- 
-    <a href="index.html">← Back to Home</a>
-
+        <section id="return-home">
+            <a href="index.html">← Back to Home</a>
+        </section>
+    </main>
 </body>
 </html>
