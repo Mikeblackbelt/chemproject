@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buy Limestone for Soil pH</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <div id="banner">
@@ -16,11 +17,10 @@
     <img src="limestone.jpg" alt="Limestone" width="400">
 
     <h2>Order Now</h2>
-    <p>Price: </p>
     
     <form id="orderForm">
-        <label for="quantity">Units to buy</label>
-        <input type="number" id="quantity" min="1" required>
+        <label for="quantity">Bags of soil to buy:</label>
+        <input type="number" id="quantity" min="1" max="10000" required>
         <p id="cost">Cost: $0.00</p>
         <br>
         <label for="email">Your Email:</label>
@@ -30,6 +30,9 @@
     </form>
 
     <p id="orderMessage"></p>
+    <br>
+    <iframe src="Company ad.mp4"></iframe>
+
     <script src="scripts.js"></script>
 </body>
 </html>

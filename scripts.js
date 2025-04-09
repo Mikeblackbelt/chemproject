@@ -9,12 +9,14 @@ function calculateLimestone(pH, area) {
 window.addEventListener('DOMContentLoaded', function () {
     const quantityInput = document.getElementById('quantity');
     const costDisplay = document.getElementById('cost');
-    const pricePerUnit = 9.99;
+    const pricePerUnit = 12.99;
 
     quantityInput.addEventListener('input', function () {
         const quantity = parseInt(quantityInput.value) || 0;
+        const weight = (quantity * 5).toFixed(2);
         const totalCost = (quantity * pricePerUnit).toFixed(2);
-        costDisplay.textContent = `Cost: $${totalCost}`;
+        costDisplay.textContent = `Cost: $${totalCost} for ${weight}lbs of Soil (+Litmus Indicator)`;
     });
+
 });
 
